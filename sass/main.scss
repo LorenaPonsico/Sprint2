@@ -16,14 +16,37 @@
     position: absolute;
     z-index: -3;
 }
- .btn-color{
-    background-color:  #5265e1 !important;
- }
- 
-article{
-    padding:0 5% 0 5%;
+
+.btn-color {
+    background-color: #5265e1 !important;
 }
 
+article {
+    padding: 0 5% 0 5%;
+}
+
+.features {
+    padding: 0 20% 0 20%;
+}
+
+.selected:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.secondBlueBack {
+    background-color: #5265e1;
+  width: 100rem;
+  height: 70%;
+  right: 15%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
+  border-radius: 0 200px 200px 0;
+}
+.secondImage{
+    padding: 50px 0 50px 200px;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
