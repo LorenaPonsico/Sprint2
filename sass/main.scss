@@ -1,0 +1,29 @@
+// $primary: #fca311;
+// $secondary: #14213d;
+// DUDAS
+
+.paragraph {
+    opacity: 0.6;
+}
+
+.blueBack {
+    background-color: #5265e1;
+    width: 100%;
+    top: 200px;
+    height: 300px;
+    left: 200px;
+    border-radius: 200px 0 0 200px;
+    position: absolute;
+    z-index: -3;
+}
+ .btn-color{
+    background-color:  #5265e1 !important;
+ }
+ 
+article{
+    padding:0 5% 0 5%;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
