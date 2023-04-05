@@ -26,8 +26,7 @@ article {
   padding: 0 20% 0 20%;
 }
 
-.selected:hover {
-  color: red;
+.selected {
   cursor: pointer;
 }
 
@@ -43,7 +42,16 @@ article {
 }
 
 .secondImage {
-  padding: 50px 0 50px 200px;
+  padding: 50px 50px 50px 100px;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid red;
+  font-weight: bold;
+}
+
+.alinear {
+  padding-right: 100px;
 }
 
 /*!
