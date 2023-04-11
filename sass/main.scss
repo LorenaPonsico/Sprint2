@@ -1,6 +1,6 @@
-// $primary: #fca311;
-// $secondary: #14213d;
-// DUDAS
+$primary: #5265E1;
+$secondary: #FA5959;
+
 
 .paragraph {
     opacity: 0.6;
@@ -25,6 +25,10 @@ article {
     padding: 0 5% 0 5%;
 }
 
+section{
+    margin-top: 5%;
+}
+
 .features {
     padding: 0 20% 0 20%;
 }
@@ -32,6 +36,7 @@ article {
 .selected {
     cursor: pointer;
 }
+
 
 .secondBlueBack {
     background-color: #5265e1;
@@ -54,6 +59,20 @@ article {
 .alinear{
    padding-right: 100px;
 }
+
+.containerCards{
+    max-width: 1000px;
+}
+.card{
+    width: 240px;
+}
+.dots{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
