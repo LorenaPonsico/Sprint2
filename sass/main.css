@@ -75,6 +75,41 @@ footer {
   padding-top: 10%;
 }
 
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  color: #5265E1 !important;
+}
+
+.dropdown-toggle-split:hover {
+  color: #FA5959 !important;
+}
+
+.hoverNav {
+  border: 0px;
+}
+
+.btn-secondary:hover {
+  background-color: white !important;
+  color: #FA5959 !important;
+}
+
+.btn-light:hover {
+  background-color: white !important;
+  color: #5265E1;
+}
+
+.social-icon:hover {
+  filter: invert(80%) sepia(100%) saturate(2596%) hue-rotate(341deg) brightness(80%) contrast(99%);
+}
+
+.colorRed:hover {
+  color: #FA5959 !important;
+}
+
 /*!
  * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
