@@ -1,14 +1,18 @@
 @charset "UTF-8";
+html, body {
+  overflow-x: hidden;
+}
+
 .paragraph {
   opacity: 0.6;
 }
 
 .blueBack {
-  background-color: #5265e1;
-  width: 100%;
-  top: 200px;
-  height: 300px;
-  left: 200px;
+  background-color: #5265E1;
+  width: 100rem;
+  top: 40%;
+  height: 70%;
+  left: 30%;
   border-radius: 200px 0 0 200px;
   position: absolute;
   z-index: -3;
@@ -20,10 +24,6 @@
 
 article {
   padding: 0 5% 0 5%;
-}
-
-section {
-  padding-top: 5%;
 }
 
 .features {
@@ -47,11 +47,6 @@ section {
 
 .secondImage {
   padding: 50px 50px 50px 100px;
-}
-
-.board:hover {
-  border-bottom: 3px solid red;
-  font-weight: bold;
 }
 
 .alinear {
@@ -108,6 +103,10 @@ footer {
 
 .colorRed:hover {
   color: #FA5959 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
 }
 
 /*!

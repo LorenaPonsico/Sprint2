@@ -1,20 +1,23 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
+html, body{
+  overflow-x:hidden;
+}
 
 .paragraph {
     opacity: 0.6;
 }
 
 .blueBack {
-    background-color: #5265e1;
-    width: 100%;
-    top: 200px;
-    height: 300px;
-    left: 200px;
-    border-radius: 200px 0 0 200px;
-    position: absolute;
-    z-index: -3;
+  background-color: $primary;
+  width: 100rem;
+  top: 40%;
+  height: 70%;
+  left: 30%;
+  border-radius: 200px 0 0 200px;
+  position: absolute;
+  z-index:-3;
 }
 
 .btn-color {
@@ -26,9 +29,9 @@ article {
  
 }
 
-section {
-    padding-top: 5%;
-}
+// section {
+//     padding-top: 5%;
+// }
 
 .features {
     padding: 0 20% 0 20%;
@@ -54,10 +57,10 @@ section {
     padding: 50px 50px 50px 100px;
 }
 
-.board:hover {
-    border-bottom: 3px solid red;
-    font-weight: bold;
-}
+
+// .nav-underline:link-active-color{
+//   border-bottom: red;
+// }
 
 .alinear {
     padding-right: 100px;
@@ -81,6 +84,7 @@ footer{
   
 
 }
+
 
 .nav-link:hover{
     color: $secondary !important;
@@ -110,9 +114,10 @@ footer{
     color: $secondary !important;
   }
 
-
-
-
+  .accordion-button:focus {
+    box-shadow: none !important;
+  }
+ 
 
 
 
