@@ -23,50 +23,55 @@ $secondary: #FA5959;
 
 article {
     padding: 0 5% 0 5%;
+ 
 }
 
-section{
-    margin-top: 5%;
+section {
+    padding-top: 5%;
 }
 
 .features {
     padding: 0 20% 0 20%;
+
 }
 
 .selected {
     cursor: pointer;
 }
 
-
 .secondBlueBack {
     background-color: #5265e1;
-  width: 100rem;
-  height: 70%;
-  right: 15%;
-  top: 40%;
-  position: absolute;
-  z-index: -3;
-  border-radius: 0 200px 200px 0;
+    width: 100rem;
+    height: 70%;
+    right: 15%;
+    top: 40%;
+    position: absolute;
+    z-index: -3;
+    border-radius: 0 200px 200px 0;
 }
-.secondImage{
+
+.secondImage {
     padding: 50px 50px 50px 100px;
 }
 
 .board:hover {
-    border-bottom: 3px solid red; 
-    font-weight: bold; 
-  }
-.alinear{
-   padding-right: 100px;
+    border-bottom: 3px solid red;
+    font-weight: bold;
 }
 
-.containerCards{
+.alinear {
+    padding-right: 100px;
+}
+
+.containerCards {
     max-width: 1000px;
 }
-.card{
+
+.card {
     width: 240px;
 }
-.dots{
+
+.dots {
     width: 100%;
     padding-bottom: 20px;
 }
