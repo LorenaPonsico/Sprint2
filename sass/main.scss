@@ -1,12 +1,13 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
-html, body{
-  overflow-x:hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 
 .paragraph {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .blueBack {
@@ -17,107 +18,109 @@ html, body{
   left: 30%;
   border-radius: 200px 0 0 200px;
   position: absolute;
-  z-index:-3;
+  z-index: -3;
 }
 
 .btn-color {
-    background-color: #5265e1 !important;
+  background-color: #5265e1 !important;
 }
 
 article {
-    padding: 0 5% 0 5%;
- 
+  padding: 0 5% 0 5%;
+
 }
 
-// section {
-//     padding-top: 5%;
-// }
 
 .features {
-    padding: 0 20% 0 20%;
+  padding: 0 20% 0 20%;
 
 }
 
 .selected {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .secondBlueBack {
-    background-color: #5265e1;
-    width: 100rem;
-    height: 70%;
-    right: 15%;
-    top: 40%;
-    position: absolute;
-    z-index: -3;
-    border-radius: 0 200px 200px 0;
+  background-color: #5265e1;
+  width: 100rem;
+  height: 70%;
+  right: 15%;
+  top: 40%;
+  position: absolute;
+  z-index: -3;
+  border-radius: 0 200px 200px 0;
 }
 
 .secondImage {
-    padding: 50px 50px 50px 100px;
+  padding: 50px 50px 50px 100px;
 }
 
 
-// .nav-underline:link-active-color{
-//   border-bottom: red;
-// }
 
 .alinear {
-    padding-right: 100px;
+  padding-right: 100px;
 }
 
 .containerCards {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 .card {
-    width: 240px;
+  width: 240px;
 }
 
 .dots {
-    width: 100%;
-    padding-bottom: 20px;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
-footer{
-    padding-top: 10%;
-  
+footer {
+  padding-top: 10%;
+
 
 }
 
 
-.nav-link:hover{
-    color: $secondary !important;
-  }
-  .btn-primary:hover{
-    background-color: white !important;
-    color: $primary !important;
-  }
-  .dropdown-toggle-split:hover{
-    color: $secondary !important;
-  }
-  .hoverNav {
-    border: 0px;
-  }
-  .btn-secondary:hover {
-    background-color: white !important;
-    color: $secondary !important;
-  }
-  .btn-light:hover{
-    background-color: white !important;
-    color: $primary;
-  }
-  .social-icon:hover{
-    filter: invert(80%) sepia(100%) saturate(2596%) hue-rotate(341deg) brightness(80%) contrast(99%);
-  }
-  .colorRed:hover {
-    color: $secondary !important;
-  }
+.nav-link:hover {
+  color: $secondary !important;
+}
 
-  .accordion-button:focus {
-    box-shadow: none !important;
-  }
- 
+.btn-primary:hover {
+  background-color: white !important;
+  color: $primary !important;
+}
+
+.dropdown-toggle-split:hover {
+  color: $secondary !important;
+}
+
+.hoverNav {
+  border: 0px;
+}
+
+.btn-secondary:hover {
+  background-color: white !important;
+  color: $secondary !important;
+}
+
+.btn-light:hover {
+  background-color: white !important;
+  color: $primary;
+}
+
+.social-icon:hover {
+  filter: invert(80%) sepia(100%) saturate(2596%) hue-rotate(341deg) brightness(80%) contrast(99%);
+}
+
+.colorRed:hover {
+  color: $secondary !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+
 
 
 
