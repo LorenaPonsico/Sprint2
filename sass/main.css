@@ -87,6 +87,11 @@ footer {
 .hoverNav {
   border: 0px;
 }
+.nav-link.active {
+  color: black !important;
+  border-bottom: 2px solid #fa5959 !important;
+  padding-bottom: 12px !important;
+}
 
 .btn-secondary:hover {
   background-color: white !important;
